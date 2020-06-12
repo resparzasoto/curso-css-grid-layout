@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    /* grid-template-rows: 300px 150px; */
+    /* grid-template-columns: 25% 200px 25%; */
+    grid-template: 300px 150px / 25% 200px 25%;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid red;
+}
