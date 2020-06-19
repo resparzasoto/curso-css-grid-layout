@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.container .item {
+    border-radius: 5px;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+.container .item img {
+    max-width: 100%;
+}
+
+.level-1 {
+    grid-row-end: span 3;
+}
+
+.level-2 {
+    grid-row-end: span 2;
+}
+
+.level-3 {
+    grid-row-end: span 1;
+}
